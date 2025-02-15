@@ -1,0 +1,22 @@
+.user-details-container {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #4f4f4f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-details-header {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.user-details-item {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.user-details-label {
+    font-weight: bold;
+}

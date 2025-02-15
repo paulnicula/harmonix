@@ -1,0 +1,105 @@
+.upload-music-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10vh;
+    height: 100vh;
+}
+
+.upload-form {
+    background-color: #2b2b2b;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.upload-form h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.upload-form .MuiTextField-root,
+.upload-form .MuiButton-root {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.upload-form .MuiButton-root {
+    background-color: #ff4081;
+    color: #fff;
+}
+
+.upload-form .MuiButton-root:hover {
+    background-color: #ff5a8c;
+}
+
+.upload-form input[type="file"] {
+    display: none;
+}
+
+.upload-form .file-input-label {
+    display: inline-block;
+    background-color: #424242;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.upload-form .file-input-label:hover {
+    background-color: #616161;
+}
+
+.upload-preview {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.upload-preview img {
+    max-width: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.upload-preview p {
+    color: #fff;
+}
+
+.upload-form .MuiFormControl-root {
+    margin-bottom: 20px;
+    width: 100%;
+    color: #fff;
+}
+
+.upload-form .MuiInputBase-root {
+    color: #fff;
+}
+
+.upload-form .MuiOutlinedInput-notchedOutline {
+    border-color: #fff;
+}
+
+.upload-form .MuiSelect-icon {
+    color: #fff;
+}
+
+.MuiPaper-root {
+    background-color: #2b2b2b !important;
+}
+
+.MuiMenuItem-root {
+    color: #fff !important;
+    background-color: #2b2b2b !important;
+}
+
+.MuiMenuItem-root:hover {
+    background-color: #3d3d3d !important;
+}

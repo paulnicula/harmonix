@@ -1,0 +1,19 @@
+.search-input {
+    background-color: #444;
+    border-radius: 4px;
+    color: #fff;
+    width: 60%;
+    max-width: 400px;
+}
+
+.search-input .MuiOutlinedInput-root {
+    border-color: transparent;
+}
+
+.search-input .MuiOutlinedInput-root:hover {
+    border-color: #666;
+}
+
+.search-input .MuiOutlinedInput-input {
+    color: #fff;
+}

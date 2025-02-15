@@ -1,0 +1,36 @@
+.upgrade-plan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upgrade-plan-header {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.upgrade-plan-card {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.upgrade-plan-card ul {
+    padding-left: 20px;
+}
+
+.upgrade-plan-card li {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.upgrade-plan-text {
+    color: #ffffff;
+}
+
+.upgrade-plan-price {
+    color: #ff4081;
+}
